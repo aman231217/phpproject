@@ -14,7 +14,7 @@ if ( isset($_GET['md5']) ) {
     $md5 = $_GET['md5'];
 
     
-    $txt = "024681084";
+    $txt = "0123456789";
     $show = 15;
 
      
@@ -75,9 +75,12 @@ if($goodtext == $try){
 <li><a href="index.php">Reset</a></li>
 <li><a href="md5.php">MD5 Encoder</a></li>
 <li><a href="makecode.php">MD5 Code Maker</a></li>
-<!-- <li><a
-href="https://github.com/aman231217/phpproject.git"
-target="_blank">Source code for this application</a></li>-->
+<li><a
+href="https://github.com/aman231217/phpproject.git "
+target="_blank">Source code for this application</a></li>
 </ul>
 </body>
-</html>
+</html>                            
+
+
+

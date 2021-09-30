@@ -7,7 +7,9 @@ if ( isset($_GET['code']) ) {
     if ( strlen($code) != 4 ) {
         $error = "Input must be exactly four cters";
     } else if ( $code[0] < "0" || $code[0] > "9" || 
-                $code[1] < "0" || $code[1] > "9" ) {
+                $code[1] < "0" || $code[1] > "9" ||
+                $code[2] < "0" || $code[0] > "9" || 
+                $code[3] < "0" || $code[1] > "9" ) {
         $error = "Input must four  lower numbers";
     } else {
         $md5 = hash('md5', $code);
